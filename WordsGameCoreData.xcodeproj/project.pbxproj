@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEB212D8270AF44500D42036 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB212D7270AF44500D42036 /* ListView.swift */; };
+		EEB212DA270B138900D42036 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB212D9270B138900D42036 /* ListRowView.swift */; };
+		EEB212DC270B170000D42036 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB212DB270B170000D42036 /* AddView.swift */; };
+		EEB212DE270B312200D42036 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB212DD270B312200D42036 /* ItemModel.swift */; };
+		EEB212E0270B38C800D42036 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB212DF270B38C800D42036 /* ListViewModel.swift */; };
 		EEDA50A9270A1FE400C0D49D /* WordsGameCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA50A8270A1FE400C0D49D /* WordsGameCoreDataApp.swift */; };
-		EEDA50AB270A1FE400C0D49D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA50AA270A1FE400C0D49D /* ContentView.swift */; };
 		EEDA50AD270A1FE500C0D49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDA50AC270A1FE500C0D49D /* Assets.xcassets */; };
 		EEDA50B0270A1FE500C0D49D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDA50AF270A1FE500C0D49D /* Preview Assets.xcassets */; };
-		EEDA50B2270A1FE500C0D49D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA50B1270A1FE500C0D49D /* Persistence.swift */; };
-		EEDA50B5270A1FE500C0D49D /* WordsGameCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEDA50B3270A1FE500C0D49D /* WordsGameCoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEB212D7270AF44500D42036 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EEB212D9270B138900D42036 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		EEB212DB270B170000D42036 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		EEB212DD270B312200D42036 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		EEB212DF270B38C800D42036 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		EEDA50A5270A1FE400C0D49D /* WordsGameCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsGameCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDA50A8270A1FE400C0D49D /* WordsGameCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsGameCoreDataApp.swift; sourceTree = "<group>"; };
-		EEDA50AA270A1FE400C0D49D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEDA50AC270A1FE500C0D49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEDA50AF270A1FE500C0D49D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EEDA50B1270A1FE500C0D49D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		EEDA50B4270A1FE500C0D49D /* WordsGameCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordsGameCoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				EEDA50A8270A1FE400C0D49D /* WordsGameCoreDataApp.swift */,
-				EEDA50AA270A1FE400C0D49D /* ContentView.swift */,
+				EEB212D7270AF44500D42036 /* ListView.swift */,
+				EEB212DF270B38C800D42036 /* ListViewModel.swift */,
+				EEB212DD270B312200D42036 /* ItemModel.swift */,
+				EEB212DB270B170000D42036 /* AddView.swift */,
+				EEB212D9270B138900D42036 /* ListRowView.swift */,
 				EEDA50AC270A1FE500C0D49D /* Assets.xcassets */,
-				EEDA50B1270A1FE500C0D49D /* Persistence.swift */,
-				EEDA50B3270A1FE500C0D49D /* WordsGameCoreData.xcdatamodeld */,
 				EEDA50AE270A1FE500C0D49D /* Preview Content */,
 			);
 			path = WordsGameCoreData;
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEDA50B2270A1FE500C0D49D /* Persistence.swift in Sources */,
-				EEDA50AB270A1FE400C0D49D /* ContentView.swift in Sources */,
-				EEDA50B5270A1FE500C0D49D /* WordsGameCoreData.xcdatamodeld in Sources */,
+				EEB212DE270B312200D42036 /* ItemModel.swift in Sources */,
+				EEB212DC270B170000D42036 /* AddView.swift in Sources */,
+				EEB212E0270B38C800D42036 /* ListViewModel.swift in Sources */,
 				EEDA50A9270A1FE400C0D49D /* WordsGameCoreDataApp.swift in Sources */,
+				EEB212D8270AF44500D42036 /* ListView.swift in Sources */,
+				EEB212DA270B138900D42036 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,19 +359,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EEDA50B3270A1FE500C0D49D /* WordsGameCoreData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EEDA50B4270A1FE500C0D49D /* WordsGameCoreData.xcdatamodel */,
-			);
-			currentVersion = EEDA50B4270A1FE500C0D49D /* WordsGameCoreData.xcdatamodel */;
-			path = WordsGameCoreData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = EEDA509D270A1FE400C0D49D /* Project object */;
 }

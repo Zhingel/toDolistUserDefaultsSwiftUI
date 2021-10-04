@@ -9,12 +9,15 @@ import SwiftUI
 
 @main
 struct WordsGameCoreDataApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                ListView()
+            }
+            .environmentObject(listViewModel)
+               
         }
     }
 }
